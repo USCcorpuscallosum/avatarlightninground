@@ -8,48 +8,47 @@
 #include "ofMain.h"
 #include "lightning.cpp"
 
-void makeBlue() {
-    ofSetColor(23, 45, 250);
-    //ofColor(23, 45, 250);
-}
-void makeDarkBlue(){
-    ofSetColor(0, 26, 27);
-    //fill(0,26,27);
-}
-void accentColor() {
-    ofFill();
-    ofSetColor(255, 255, 255);
-    ofDrawLine(x, y, x2, y2);
-    ofNoFill();
-    ofSetColor(0, 0, 255);
-    ofDrawLine(<#float x1#>, <#float y1#>, <#float x2#>, <#float y2#>);
-}
 
 class MainColorLine {
+    
 public:
-	// add functions here
+
+	// variables for position (used in constructor)
+    float x1 = 1;
+    float y1 = 1;
+    float x2 = 2;
+    float y2 = 2;
+    volatile int strokeWeight;
+
+    // variables used in other functions
+    vector<ofVec2f> mainlines;
+    vector<int> x = {100, 200, 300, 400, 500};
+    vector<int> y = {100, 200, 300, 400, 500};
+    float thetaMutation = 0.5;
+    float offset = 4;
+    float PX = ofGetMouseX();
+    float PY = ofGetMouseY();
+    
+    // constructor
+    MainColorLine(float x1,float y1,float x2,float y2,int strokeWeight);
+    
+    // other functions
+    void mainColor();
+    void accentColor();
+    void draw();
+    void drawPath();
+    
+
+
     //long story short, this came about so that the accent colors would
     //never be drawn over the main colors
-        float x1;
-        float y1;
-        float x2;
-        float y2;
-        const int strokeWidth =10;
-    
-MainColorLine(float x1,float y1,float x2,float y2,int strokeWeight) {
-            this->x1 = x1;
-            this->y1 = y1;
-            this->x2 = x2;
-            this->y2 = y2;
-    
-        }
-        
-    void ofPath;
-
-
-	// add variables here
-
-
-	// add constants here
-
 };
+
+//void makeBlue() {
+//    ofSetColor(23, 45, 250);
+//    //ofColor(23, 45, 250);
+//}
+//void makeDarkBlue(){
+//    ofSetColor(0, 26, 27);
+//    //fill(0,26,27);
+//}

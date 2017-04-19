@@ -8,6 +8,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){ // Barkha
 	// setup code here - no input/output
+    ofBackground(0, 0, 0);
 
 }
 

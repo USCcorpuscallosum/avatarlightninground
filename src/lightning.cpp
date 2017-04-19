@@ -4,44 +4,35 @@
 //
 
 #include "lightning.h"
+#include <math.h>
 
-// function for movement/path of lightning 
-	// INPUT: path? start/end points?
-	// OUTPUT: none
+#define PI 3.14159265
 
-// function to color lightning
-	// INPUT: none
-	// OUTPUT: color pallet?
 
-// other functions...
-void setup() {
-    ofBackground(0,26,27);
+// MAIN ERROR: many of the functions/variables in MainColorLine class are not recognized
+    // Use of undeclared identifier "MainColorLine" "strokeWeight" "thetaMutation" "mainLines"
+
+// constructor
+MainColorLine::MainColorLine(float x1,float y1,float x2,float y2,int strokeWeight) {
+    
 }
 
-vector<ofVec2f> mainlines;
-vector<int> x = {100, 200, 300, 400, 500};
-vector<int> y = {100, 200, 300, 400, 500};
-float thetaMutation = .5;
-float offset = 4;
-int PX, PY;
+//color of lightning
+void MainColorLine::accentColor() {
+    ofFill();
+    ofSetColor(255, 255, 255);
+    ofDrawLine(x1, y1, x2, y2);
+    ofNoFill();
+    ofSetColor(0, 0, 255);
+    ofDrawLine(x1, y1, x2, y2);
+}
 
-//See bottom of file
-
-
-void ofPath::setStrokeWidth(strokeWidth);
-  //  setStrokeWidth(strokeWidth);
- //   ofDrawLine(x1, y1, x2, y2);
- //   ;   }
-
-
-
-
-void draw() {
-    ofBackground(0);
-    PX=ofGetMouseX();
-    PY=ofGetMouseY();
+//draw lightning segment
+void MainColorLine::draw() {
     
-    mainlines = new vector<MainColorLine>();
+    ofBackground(0);
+
+    mainlines = vector<MainColorLine>();
     
     //draw up to 5 lines
     int numBolts = int(ofRandom(0,5));
@@ -59,62 +50,66 @@ void draw() {
     }
     
     //now draw the main lines
-    mainColor();
     for (MainColorLine line : mainlines) {
         line.drawSegment();
     }
+    
 }
 
 //recursive helper function
-void drawPath(float x1, float y1, float x2, float y2) {
-    float totalDistance = sqrt((float)(Math.pow(x2-x1, 2)+Math.pow(y2-y1, 2)));
+void MainColorLine::drawPath(float x1, float y1, float x2, float y2) {
+    float totalDistance = sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
     
     recursiveDrawPath(x1, y1, x2, y2, totalDistance, 10);
 }
 
+// determine start/end points of lightning segment
 void recursiveDrawPath(float x1, float y1, float x2,
                        float y2, float distance, int counter) {
     
-    offset = (float)Math.ceil(counter/4);
+    float offset = round(counter/4);
+    
+    strokeWeight = counter;
     
     //JUST IN CASE
     if (counter == 0) return;
     
-    float segmentPath = distance/random(6, 10);
-    strokeWeight(counter);
+    float segmentPath = distance/ofRandom(6, 10);
+    
     
     //once fairly close just close the gap
-    float currentDistance = sqrt((float)(Math.pow(x2-x1, 2)+Math.pow(y2-y1, 2)));
+    float currentDistance = sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
     if (currentDistance < distance/10) {
-        line(x1+offset, y1+offset, x2, y2);
+        ofDrawLine(x1+offset, y1+offset, x2, y2);
         mainLines.add(new MainColorLine(x1,y1,x2,y2,counter));
         return;
     }
     
-    double theta = Math.atan(((y2-y1)/(x2-x1)));
+    double theta = atan(((y2-y1)/(x2-x1)));
     
     //That's some janky engineering. I don't understand why this was necessary
     //but it fixed the bug flawlessly so I'll just leave it here.
     if (x1>x2) {
-        theta += Math.PI;
+        theta += PI;
     }
     
     //randomly mutated angle theta
-    double mTheta = theta + random(-thetaMutation, thetaMutation);
+    double mTheta = theta + ofRandom(-thetaMutation, thetaMutation);
     
     //calculate delta-x and delta-y, calculate curr seg endpoint
-    double dx = segmentPath * Math.cos(mTheta);
-    double dy = segmentPath * Math.sin(mTheta);
+    double dx = segmentPath * cos(mTheta);
+    double dy = segmentPath * sin(mTheta);
     float sx2 = (float)(x1 + dx);
     float sy2 = (float)(y1 + dy);
     
     //draw accent line
-    line(x1+offset, y1+offset, sx2+offset, sy2+offset);
+    ofDrawLine(x1+offset, y1+offset, sx2+offset, sy2+offset);
     
     //add line segment to list of main lines to draw after all accent lines are drawn
     mainLines.add(new MainColorLine(x1,y1,sx2,sy2,counter));
     
     counter--;
+    
     
     //call recursively with new startpoints but same endpoints
     recursiveDrawPath(sx2, sy2, x2, y2, distance, counter);
@@ -125,9 +120,9 @@ void recursiveDrawPath(float x1, float y1, float x2,
      recursiveDrawPath(sx2,sy2,x[int(random(x.length))],y2,distance,counter);
      }
      */
-    
-    
-}//recursiveDrawPath();
+}
+
+//recursiveDrawPath();
 
 
 // ***** COLORS *****
