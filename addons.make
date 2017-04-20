@@ -1,3 +1,2 @@
 ofxGui
-ofxKinect
-ofxLightning-master
+ofxKinectV2

@@ -32,7 +32,7 @@ void MainColorLine::draw() {
     
     ofBackground(0);
 
-    mainlines = vector<MainColorLine>();
+    mainlines = vector <MainColorLine> ();
     
     //draw up to 5 lines
     int numBolts = int(ofRandom(0,5));

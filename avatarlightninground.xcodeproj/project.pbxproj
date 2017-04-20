@@ -9,46 +9,331 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>2C171637C399A50881F147E9</key>
+			<key>34F26CA0CA6D56814F67E902</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>8B25248CC7F2228B1CEF2EB1</string>
+					<string>35D32716F14E3E18BA93703F</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>libusb-1.0</string>
+				<string>frameworks</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>1AE6862ED862CA18468E0CCD</key>
+			<key>B3ACFAB69F9C4AC9F6E8577E</key>
+			<dict>
+				<key>fileRef</key>
+				<string>35D32716F14E3E18BA93703F</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>35D32716F14E3E18BA93703F</key>
+			<dict>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OpenCL.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/OpenCL.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>7E2F71E1343096329E1D7A06</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofRGBPacketProcessor.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/protonect/ofRGBPacketProcessor.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E2CC77E327DFB995F7D54F4D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>F9B07F7354284F7E5FA30CB8</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>F9B07F7354284F7E5FA30CB8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofRGBPacketProcessor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/protonect/ofRGBPacketProcessor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A36C0BDB05E24D11E762022B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofProtonect.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/protonect/ofProtonect.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>829924D1AFD56F167390B293</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>2C171637C399A50881F147E9</string>
+					<string>B0109750A0D3C797152FA9FA</string>
+					<string>A36C0BDB05E24D11E762022B</string>
+					<string>F9B07F7354284F7E5FA30CB8</string>
+					<string>7E2F71E1343096329E1D7A06</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>include</string>
+				<string>protonect</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>65726280742CD54BF368BDB8</key>
+			<key>871A2C7EB298C6E7213403F8</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B0109750A0D3C797152FA9FA</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B0109750A0D3C797152FA9FA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofProtonect.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/protonect/ofProtonect.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C3945A74CBE8C9D865AC4C25</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>version_nano.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/version_nano.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EFFBD5C53C2470021AA766A7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>version.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/version.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>42297B7E909F515B247BC09F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>windows_usb.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/windows_usb.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F60F5697C82F49B8693694B8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>windows_common.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/windows_common.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C322BD937623B35D11304637</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>wince_usb.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/wince_usb.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>93985E4C0D4147E68A4688DE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>threads_windows.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/threads_windows.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>63C3B5FB6D0FAD8629C8967F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>threads_posix.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/threads_posix.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B96C4AFF984768708689359A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>poll_windows.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/poll_windows.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A9D7AA1B61C8ADB6F9DB7AA2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>poll_posix.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/poll_posix.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A0A704E2155E96D6F96710E9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>linux_usbfs.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/linux_usbfs.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>690CC895FD2739DA5ED1C8D2</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>1AE6862ED862CA18468E0CCD</string>
+					<string>618332E0DE38B2EEF7226D38</string>
+					<string>A0A704E2155E96D6F96710E9</string>
+					<string>A9D7AA1B61C8ADB6F9DB7AA2</string>
+					<string>B96C4AFF984768708689359A</string>
+					<string>63C3B5FB6D0FAD8629C8967F</string>
+					<string>93985E4C0D4147E68A4688DE</string>
+					<string>C322BD937623B35D11304637</string>
+					<string>F60F5697C82F49B8693694B8</string>
+					<string>42297B7E909F515B247BC09F</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>libusb-1.0</string>
+				<string>os</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>8B25248CC7F2228B1CEF2EB1</key>
+			<key>618332E0DE38B2EEF7226D38</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>darwin_usb.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os/darwin_usb.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6EFC4D63D6B94AA7058C3AEE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>libusbi.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/libusbi.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0C202F0E3B8C1A67B5D3F8ED</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -59,11 +344,55 @@
 				<key>name</key>
 				<string>libusb.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0/libusb.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/libusb.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B4A0A006318C06E07DDF19D6</key>
+			<key>51B18D5C6D2113D66F01BDA9</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>5FBD021D73B9E0E1610FD6C6</string>
+					<string>0C202F0E3B8C1A67B5D3F8ED</string>
+					<string>6EFC4D63D6B94AA7058C3AEE</string>
+					<string>690CC895FD2739DA5ED1C8D2</string>
+					<string>EFFBD5C53C2470021AA766A7</string>
+					<string>C3945A74CBE8C9D865AC4C25</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libusb</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>FD08E51AD6BE952E921D8AC4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>51B18D5C6D2113D66F01BDA9</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>39A73FDEE0BE65D41C19364C</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>FD08E51AD6BE952E921D8AC4</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libusb</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>5FBD021D73B9E0E1610FD6C6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -72,57 +401,493 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>usb_libusb10.h</string>
+				<string>hotplug.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/usb_libusb10.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/hotplug.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>255A7B680DC81E543C875794</key>
+			<key>EC22E9F6B257E3BDDECF9D18</key>
 			<dict>
 				<key>fileRef</key>
-				<string>28F9707464BA3FF98E05096C</string>
+				<string>AE70281794B948F3E1200E70</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>28F9707464BA3FF98E05096C</key>
+			<key>AE70281794B948F3E1200E70</key>
 			<dict>
 				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
+				<string>sourcecode.cpp.cpp</string>
 				<key>fileEncoding</key>
 				<string>30</string>
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>usb_libusb10.c</string>
+				<string>usb_control.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/usb_libusb10.c</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/usb_control.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>49BEEB2DFA5319D55AA6899F</key>
+			<key>C3FADE9F8634F788D575CC7B</key>
 			<dict>
 				<key>fileRef</key>
-				<string>BF2F2AA872288D30F53983EF</string>
+				<string>126B9013B7598CABD71CC59C</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>BF2F2AA872288D30F53983EF</key>
+			<key>126B9013B7598CABD71CC59C</key>
 			<dict>
 				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
+				<string>sourcecode.cpp.cpp</string>
 				<key>fileEncoding</key>
 				<string>30</string>
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>tilt.c</string>
+				<string>transfer_pool.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/tilt.c</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/transfer_pool.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3CABCA8EA52D11C95F7A1309</key>
+			<key>32E193ACF8A7921F12F2D3C4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>499F552A559CE91A47BB94B0</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>499F552A559CE91A47BB94B0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rgb_packet_stream_parser.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/rgb_packet_stream_parser.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A85029701CC0AC22A2C935E7</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8ACB27FC2EF2D35C35BBE2A3</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8ACB27FC2EF2D35C35BBE2A3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rgb_packet_processor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/rgb_packet_processor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>940C9FAA45B4D147203CF5A2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>846F5828E343437985669C60</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>846F5828E343437985669C60</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>resource.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/resource.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D18574094FC9C8E453F952EB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7D08F3C82AD64E10BD3FB723</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7D08F3C82AD64E10BD3FB723</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>registration.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/registration.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>193F7574463278E7BC2115EC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1168104486961FABB6231A06</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1168104486961FABB6231A06</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>packet_pipeline.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/packet_pipeline.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4306E5BDC86876FB50AE685C</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E1DEE55DD28B8958C453014A</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E1DEE55DD28B8958C453014A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>opengl_depth_packet_processor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/opengl_depth_packet_processor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>73CE2AC868F00096875C96D5</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D8DD5931F6FCD6293F51F1DE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D8DD5931F6FCD6293F51F1DE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>opencl_depth_packet_processor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/opencl_depth_packet_processor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>67DF4A22C69D9260F14C871B</key>
+			<dict>
+				<key>fileRef</key>
+				<string>88C25AB5A9E150E0FE8DB2E5</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>88C25AB5A9E150E0FE8DB2E5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>logging.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/logging.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>DBB098DE5054CEAD6812B83B</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C0E4F0E98B59D20C971C39B0</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C0E4F0E98B59D20C971C39B0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>libfreenect2.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/libfreenect2.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B65594D6556A05D6A1B48E14</key>
+			<dict>
+				<key>fileRef</key>
+				<string>388D6BD3141D1A3692C6C748</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>388D6BD3141D1A3692C6C748</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>frame_listener_impl.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/frame_listener_impl.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4959F03AE017540572E827C2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>flextGL.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/flextGL.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D7250AD84540A0623627DC28</key>
+			<dict>
+				<key>fileRef</key>
+				<string>A8741321E03933398197E1E5</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>A8741321E03933398197E1E5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>flextGL.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/flextGL.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F9CA353CAED98B0E6982EEC8</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B87A942F5C86226DB70339C2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B87A942F5C86226DB70339C2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>event_loop.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/event_loop.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CF159C02F7ABCA55E3ECAA55</key>
+			<dict>
+				<key>fileRef</key>
+				<string>F48DA74EE05969866CF939D6</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>F48DA74EE05969866CF939D6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>double_buffer.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/double_buffer.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7F14FDC8FC2A8364A07228F8</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1AD58A9D881BE9B881B0F4BC</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1AD58A9D881BE9B881B0F4BC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>depth_packet_stream_parser.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/depth_packet_stream_parser.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>113A160520776063FCA6C700</key>
+			<dict>
+				<key>fileRef</key>
+				<string>9A9980E8A05D35D7DA7D4647</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>9A9980E8A05D35D7DA7D4647</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>depth_packet_processor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/depth_packet_processor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0377D76BF2A4C9AC0592B50C</key>
+			<dict>
+				<key>fileRef</key>
+				<string>CB0AAEF2A3FA54141D4F0D4B</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>CB0AAEF2A3FA54141D4F0D4B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>cpu_depth_packet_processor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/cpu_depth_packet_processor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2E8C8C57A16399C4952C6D48</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>BFE9E22384A646CC8BF59FCB</string>
+					<string>CB0AAEF2A3FA54141D4F0D4B</string>
+					<string>9A9980E8A05D35D7DA7D4647</string>
+					<string>1AD58A9D881BE9B881B0F4BC</string>
+					<string>F48DA74EE05969866CF939D6</string>
+					<string>B87A942F5C86226DB70339C2</string>
+					<string>A8741321E03933398197E1E5</string>
+					<string>4959F03AE017540572E827C2</string>
+					<string>388D6BD3141D1A3692C6C748</string>
+					<string>C0E4F0E98B59D20C971C39B0</string>
+					<string>88C25AB5A9E150E0FE8DB2E5</string>
+					<string>D8DD5931F6FCD6293F51F1DE</string>
+					<string>E1DEE55DD28B8958C453014A</string>
+					<string>1168104486961FABB6231A06</string>
+					<string>7D08F3C82AD64E10BD3FB723</string>
+					<string>846F5828E343437985669C60</string>
+					<string>8ACB27FC2EF2D35C35BBE2A3</string>
+					<string>499F552A559CE91A47BB94B0</string>
+					<string>126B9013B7598CABD71CC59C</string>
+					<string>AE70281794B948F3E1200E70</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>472540F6C1AC728D75793472</key>
+			<dict>
+				<key>fileRef</key>
+				<string>BFE9E22384A646CC8BF59FCB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>BFE9E22384A646CC8BF59FCB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>command_transaction.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/command_transaction.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CF1EE67DDA0845F5CD15888E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rgb_packet_processor.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/rgb_packet_processor.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E50A9DF67B3ABC5CDD1D2CB6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -133,33 +898,11 @@
 				<key>name</key>
 				<string>registration.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/registration.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/registration.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D31F5C1B140C59B2AF1533A8</key>
-			<dict>
-				<key>fileRef</key>
-				<string>71958293AC5292DE4B7C619D</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>71958293AC5292DE4B7C619D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>registration.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/registration.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>093C9EBFCAB5D2649ACF4D0C</key>
+			<key>A808730C5421CA7B2C69D21E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -168,35 +911,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>loader.h</string>
+				<string>packet_processor.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/loader.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/packet_processor.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>FCC16AB16073FF0581F50ED7</key>
-			<dict>
-				<key>fileRef</key>
-				<string>FE25F20F363BC625B852BFBC</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>FE25F20F363BC625B852BFBC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>loader.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/loader.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3175B69741F3AE805AD3F527</key>
+			<key>767CBBFEC1BF935663F43467</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -205,35 +926,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>keep_alive.h</string>
+				<string>packet_pipeline.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/keep_alive.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/packet_pipeline.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>21A059755481CC0BF969FD2D</key>
-			<dict>
-				<key>fileRef</key>
-				<string>A3528DDFF05B00283552455D</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>A3528DDFF05B00283552455D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>keep_alive.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/keep_alive.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>83C70000C4AE60283CC77EB9</key>
+			<key>EDA88D1F798B6307B0C20011</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -242,13 +941,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>freenect_internal.h</string>
+				<string>logger.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/freenect_internal.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/logger.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D097EE679E29AD7B5E2CDFCD</key>
+			<key>E61A8254E93A86F3760E2158</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -257,57 +956,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>flags.h</string>
+				<string>libfreenect2.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/flags.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/libfreenect2.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E55DEEF784A10419E444669E</key>
-			<dict>
-				<key>fileRef</key>
-				<string>682082DEC78C75C8FB18B7DB</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>682082DEC78C75C8FB18B7DB</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>flags.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/flags.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F4135EEFC911E9ED211FB6F9</key>
-			<dict>
-				<key>fileRef</key>
-				<string>CF528C0E8DBFF5C31E8D6529</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>CF528C0E8DBFF5C31E8D6529</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>core.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/core.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>241AAF7769D555E4ECD57E17</key>
+			<key>A4CDB633C2C70A5DDB72964E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -316,85 +971,65 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>cameras.h</string>
+				<string>frame_listener_impl.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/cameras.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/frame_listener_impl.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ACE7DC9A3223ED5EE1B80074</key>
-			<dict>
-				<key>fileRef</key>
-				<string>3DBD37876A11E46E4D7069B3</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>3DBD37876A11E46E4D7069B3</key>
+			<key>275C632C4535EDC948D66FD2</key>
 			<dict>
 				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
+				<string>sourcecode.c.h</string>
 				<key>fileEncoding</key>
 				<string>30</string>
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>cameras.c</string>
+				<string>frame_listener.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/cameras.c</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/frame_listener.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ED6E9BDB447DB965EE6F1FA6</key>
+			<key>394123D27561FD76E7D7A941</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>depth_packet_processor.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/depth_packet_processor.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7359D1E1E75CE4ACFB9C3F70</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>34FC4C582EA5ED68F36013CD</string>
-					<string>3DBD37876A11E46E4D7069B3</string>
-					<string>241AAF7769D555E4ECD57E17</string>
-					<string>CF528C0E8DBFF5C31E8D6529</string>
-					<string>682082DEC78C75C8FB18B7DB</string>
-					<string>D097EE679E29AD7B5E2CDFCD</string>
-					<string>83C70000C4AE60283CC77EB9</string>
-					<string>A3528DDFF05B00283552455D</string>
-					<string>3175B69741F3AE805AD3F527</string>
-					<string>FE25F20F363BC625B852BFBC</string>
-					<string>093C9EBFCAB5D2649ACF4D0C</string>
-					<string>71958293AC5292DE4B7C619D</string>
-					<string>3CABCA8EA52D11C95F7A1309</string>
-					<string>BF2F2AA872288D30F53983EF</string>
-					<string>28F9707464BA3FF98E05096C</string>
-					<string>B4A0A006318C06E07DDF19D6</string>
+					<string>26CC708A6F5891EB511DC8B1</string>
+					<string>394123D27561FD76E7D7A941</string>
+					<string>275C632C4535EDC948D66FD2</string>
+					<string>A4CDB633C2C70A5DDB72964E</string>
+					<string>E61A8254E93A86F3760E2158</string>
+					<string>EDA88D1F798B6307B0C20011</string>
+					<string>767CBBFEC1BF935663F43467</string>
+					<string>A808730C5421CA7B2C69D21E</string>
+					<string>E50A9DF67B3ABC5CDD1D2CB6</string>
+					<string>CF1EE67DDA0845F5CD15888E</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>src</string>
+				<string>libfreenect2</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>0F8F016776681D468C0D0949</key>
-			<dict>
-				<key>fileRef</key>
-				<string>34FC4C582EA5ED68F36013CD</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>34FC4C582EA5ED68F36013CD</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>audio.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/src/audio.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E62884AEE08652DCB3199A54</key>
+			<key>26CC708A6F5891EB511DC8B1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -403,13 +1038,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libfreenect_registration.h</string>
+				<string>config.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/include/libfreenect_registration.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2/config.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6F930947CA4BCA2665A4F4E8</key>
+			<key>C4D0102839B98838367AA752</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -418,19 +1053,292 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libfreenect_audio.h</string>
+				<string>transfer_pool.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/include/libfreenect_audio.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/usb/transfer_pool.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6DFA2B327764FCDA2A8D882F</key>
+			<key>B8CA9F875C36794505462CD9</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>E5F13FDAE691A5804F4D2DDB</string>
-					<string>6F930947CA4BCA2665A4F4E8</string>
-					<string>E62884AEE08652DCB3199A54</string>
+					<string>A105AD18D98CB40866FAEAA9</string>
+					<string>C4D0102839B98838367AA752</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>usb</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>A105AD18D98CB40866FAEAA9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>event_loop.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/usb/event_loop.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>242860EC08C5F0C2402B58CC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>threading.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/threading.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>DF471A403CBC4B6327E1023D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>rgb_packet_stream_parser.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/rgb_packet_stream_parser.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EAB66BCAA85DEB6A7A793F8D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>resource.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/resource.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C2BF421183C40D9BE8064BBF</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>usb_control.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol/usb_control.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B34B2A447DBBEF5F0AA5C729</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>response.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol/response.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3ED3C25F93DEBD2E520E3015</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>command_transaction.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol/command_transaction.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CEE89B11EECA847C70B96681</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>2C59B09CF44367D3F475C081</string>
+					<string>3ED3C25F93DEBD2E520E3015</string>
+					<string>B34B2A447DBBEF5F0AA5C729</string>
+					<string>C2BF421183C40D9BE8064BBF</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>protocol</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>2C59B09CF44367D3F475C081</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>command.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol/command.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>ECC9D2C2CB4EBA819DBB710E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>logging.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/logging.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>330C02FEA3D39BD73FBECC55</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>double_buffer.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/double_buffer.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4B8E58C5C946163921D5420F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>depth_packet_stream_parser.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/depth_packet_stream_parser.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CB514B501B1F0289F3EDD951</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>data_callback.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/data_callback.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BCE08DBCDFC646E654DBBA43</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B283E8D6E6A712390D6079C4</string>
+					<string>CB514B501B1F0289F3EDD951</string>
+					<string>4B8E58C5C946163921D5420F</string>
+					<string>330C02FEA3D39BD73FBECC55</string>
+					<string>ECC9D2C2CB4EBA819DBB710E</string>
+					<string>CEE89B11EECA847C70B96681</string>
+					<string>EAB66BCAA85DEB6A7A793F8D</string>
+					<string>DF471A403CBC4B6327E1023D</string>
+					<string>242860EC08C5F0C2402B58CC</string>
+					<string>B8CA9F875C36794505462CD9</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libfreenect2</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>B283E8D6E6A712390D6079C4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>async_packet_processor.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/async_packet_processor.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C59019C2D7DB9B4CE411B771</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>8649B93AFE1235BB46549951</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>CL</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>F4B930A504634EC70F9E2B4D</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>C59019C2D7DB9B4CE411B771</string>
+					<string>BCE08DBCDFC646E654DBBA43</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>internal</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>23376D672010D279B0029732</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>F4B930A504634EC70F9E2B4D</string>
+					<string>7359D1E1E75CE4ACFB9C3F70</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -439,26 +1347,27 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>32687044708CDA9EDA265387</key>
+			<key>96AF7F99FBCF7189CD9CEA70</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>6DFA2B327764FCDA2A8D882F</string>
-					<string>ED6E9BDB447DB965EE6F1FA6</string>
+					<string>23376D672010D279B0029732</string>
+					<string>2E8C8C57A16399C4952C6D48</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>libfreenect</string>
+				<string>libfreenect2</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>F4101FC676C210E28DCB3220</key>
+			<key>D55200B6A433E7ACBCCD9E67</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>32687044708CDA9EDA265387</string>
-					<string>65726280742CD54BF368BDB8</string>
+					<string>96AF7F99FBCF7189CD9CEA70</string>
+					<string>39A73FDEE0BE65D41C19364C</string>
+					<string>829924D1AFD56F167390B293</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -467,7 +1376,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>E5F13FDAE691A5804F4D2DDB</key>
+			<key>8649B93AFE1235BB46549951</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -476,13 +1385,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>libfreenect.h</string>
+				<string>cl.hpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/libs/libfreenect/include/libfreenect.h</string>
+				<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/CL/cl.hpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>44EF97BDD915E758777A9A8C</key>
+			<key>937637805D1D04FEBC647D54</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -491,86 +1400,18 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxKinect.h</string>
+				<string>ofxKinectV2.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/src/ofxKinect.h</string>
+				<string>../../../addons/ofxKinectV2/src/ofxKinectV2.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>686B0DF6249B52E1A85B39EC</key>
-			<dict>
-				<key>fileRef</key>
-				<string>7ED9FFC7D08DA194C2CE7D09</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>7ED9FFC7D08DA194C2CE7D09</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxKinect.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/src/ofxKinect.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B8A2CBF3E24E6E5026B13A90</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxBase3DVideo.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/src/ofxBase3DVideo.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>03A9E977F3814A55A4FA3B4E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxKinectExtras.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxKinect/src/extra/ofxKinectExtras.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6E7134DE536888BE82D56327</key>
+			<key>254642DD627BEA55DF50B99F</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>01438542609FC64F1EC60EEB</string>
-					<string>03A9E977F3814A55A4FA3B4E</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>extra</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>F3D2DB7201EFA9F7958F421E</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>6E7134DE536888BE82D56327</string>
-					<string>B8A2CBF3E24E6E5026B13A90</string>
-					<string>7ED9FFC7D08DA194C2CE7D09</string>
-					<string>44EF97BDD915E758777A9A8C</string>
+					<string>C63A20974FC27179384D6B1B</string>
+					<string>937637805D1D04FEBC647D54</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -579,28 +1420,29 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>9683228C705CA3FF4F2EA945</key>
+			<key>B3F1A3EBAB4324C5451FC9A3</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>F3D2DB7201EFA9F7958F421E</string>
-					<string>F4101FC676C210E28DCB3220</string>
+					<string>254642DD627BEA55DF50B99F</string>
+					<string>D55200B6A433E7ACBCCD9E67</string>
+					<string>34F26CA0CA6D56814F67E902</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>ofxKinect</string>
+				<string>ofxKinectV2</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>7ADB04AF67C568EAFAEBA546</key>
+			<key>E3EFFFFCBBAF63136866B6B7</key>
 			<dict>
 				<key>fileRef</key>
-				<string>01438542609FC64F1EC60EEB</string>
+				<string>C63A20974FC27179384D6B1B</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>01438542609FC64F1EC60EEB</key>
+			<key>C63A20974FC27179384D6B1B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -609,9 +1451,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxKinectExtras.cpp</string>
+				<string>ofxKinectV2.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxKinect/src/extra/ofxKinectExtras.cpp</string>
+				<string>../../../addons/ofxKinectV2/src/ofxKinectV2.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1058,7 +1900,7 @@
 				<key>children</key>
 				<array>
 					<string>480A780D8D0308AE4A368801</string>
-					<string>9683228C705CA3FF4F2EA945</string>
+					<string>B3F1A3EBAB4324C5451FC9A3</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1212,26 +2054,32 @@
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx/usb-1.0.0-latest-superspeed.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
-						<string>../../../addons/ofxKinect/libs</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/include</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/platform</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/src</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx</string>
-						<string>../../../addons/ofxKinect/libs/libusb-win32</string>
-						<string>../../../addons/ofxKinect/src</string>
-						<string>../../../addons/ofxKinect/src/extra</string>
+						<string>../../../addons/ofxKinectV2/libs</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/CL</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/usb</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/shader</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx</string>
+						<string>../../../addons/ofxKinectV2/libs/protonect</string>
+						<string>../../../addons/ofxKinectV2/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -1289,26 +2137,32 @@
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx/usb-1.0.0-latest-superspeed.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
-						<string>../../../addons/ofxKinect/libs</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/include</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/platform</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/src</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx</string>
-						<string>../../../addons/ofxKinect/libs/libusb-win32</string>
-						<string>../../../addons/ofxKinect/src</string>
-						<string>../../../addons/ofxKinect/src/extra</string>
+						<string>../../../addons/ofxKinectV2/libs</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/CL</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/usb</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/shader</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx</string>
+						<string>../../../addons/ofxKinectV2/libs/protonect</string>
+						<string>../../../addons/ofxKinectV2/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -1375,17 +2229,28 @@
 					<string>837220E80EB56CD44AD27F2A</string>
 					<string>B56FE57CC35806596D38118C</string>
 					<string>1CD33E884D9E3358252E82A1</string>
-					<string>7ADB04AF67C568EAFAEBA546</string>
-					<string>686B0DF6249B52E1A85B39EC</string>
-					<string>0F8F016776681D468C0D0949</string>
-					<string>ACE7DC9A3223ED5EE1B80074</string>
-					<string>F4135EEFC911E9ED211FB6F9</string>
-					<string>E55DEEF784A10419E444669E</string>
-					<string>21A059755481CC0BF969FD2D</string>
-					<string>FCC16AB16073FF0581F50ED7</string>
-					<string>D31F5C1B140C59B2AF1533A8</string>
-					<string>49BEEB2DFA5319D55AA6899F</string>
-					<string>255A7B680DC81E543C875794</string>
+					<string>E3EFFFFCBBAF63136866B6B7</string>
+					<string>472540F6C1AC728D75793472</string>
+					<string>0377D76BF2A4C9AC0592B50C</string>
+					<string>113A160520776063FCA6C700</string>
+					<string>7F14FDC8FC2A8364A07228F8</string>
+					<string>CF159C02F7ABCA55E3ECAA55</string>
+					<string>F9CA353CAED98B0E6982EEC8</string>
+					<string>D7250AD84540A0623627DC28</string>
+					<string>B65594D6556A05D6A1B48E14</string>
+					<string>DBB098DE5054CEAD6812B83B</string>
+					<string>67DF4A22C69D9260F14C871B</string>
+					<string>73CE2AC868F00096875C96D5</string>
+					<string>4306E5BDC86876FB50AE685C</string>
+					<string>193F7574463278E7BC2115EC</string>
+					<string>D18574094FC9C8E453F952EB</string>
+					<string>940C9FAA45B4D147203CF5A2</string>
+					<string>A85029701CC0AC22A2C935E7</string>
+					<string>32E193ACF8A7921F12F2D3C4</string>
+					<string>C3FADE9F8634F788D575CC7B</string>
+					<string>EC22E9F6B257E3BDDECF9D18</string>
+					<string>871A2C7EB298C6E7213403F8</string>
+					<string>E2CC77E327DFB995F7D54F4D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -1399,6 +2264,7 @@
 				<key>files</key>
 				<array>
 					<string>E4328149138ABC9F0047C5CB</string>
+					<string>B3ACFAB69F9C4AC9F6E8577E</string>
 				</array>
 				<key>isa</key>
 				<string>PBXFrameworksBuildPhase</string>
@@ -1469,26 +2335,32 @@
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx/usb-1.0.0-latest-superspeed.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
-						<string>../../../addons/ofxKinect/libs</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/include</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/platform</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/src</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx</string>
-						<string>../../../addons/ofxKinect/libs/libusb-win32</string>
-						<string>../../../addons/ofxKinect/src</string>
-						<string>../../../addons/ofxKinect/src/extra</string>
+						<string>../../../addons/ofxKinectV2/libs</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/CL</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/usb</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/shader</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx</string>
+						<string>../../../addons/ofxKinectV2/libs/protonect</string>
+						<string>../../../addons/ofxKinectV2/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -1498,6 +2370,7 @@
 					<array>
 						<string>$(inherited)</string>
 						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
+						<string>/System/Library/Frameworks</string>
 					</array>
 					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
 					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
@@ -1536,26 +2409,32 @@
 					<key>OTHER_LDFLAGS</key>
 					<array>
 						<string>$(OF_CORE_FRAMEWORKS) $(OF_CORE_LIBS)</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx/usb-1.0.0-latest-superspeed.a</string>
 					</array>
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
-						<string>../../../addons/ofxKinect/libs</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/include</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/platform</string>
-						<string>../../../addons/ofxKinect/libs/libfreenect/src</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib</string>
-						<string>../../../addons/ofxKinect/libs/libusb-1.0/lib/osx</string>
-						<string>../../../addons/ofxKinect/libs/libusb-win32</string>
-						<string>../../../addons/ofxKinect/src</string>
-						<string>../../../addons/ofxKinect/src/extra</string>
+						<string>../../../addons/ofxKinectV2/libs</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/CL</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/protocol</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/internal/libfreenect2/usb</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/include/libfreenect2</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src</string>
+						<string>../../../addons/ofxKinectV2/libs/libfreenect2/src/shader</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/include/libusb/os</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib</string>
+						<string>../../../addons/ofxKinectV2/libs/libusb/lib/osx</string>
+						<string>../../../addons/ofxKinectV2/libs/protonect</string>
+						<string>../../../addons/ofxKinectV2/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -1565,6 +2444,7 @@
 					<array>
 						<string>$(inherited)</string>
 						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
+						<string>/System/Library/Frameworks</string>
 					</array>
 					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
 					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
