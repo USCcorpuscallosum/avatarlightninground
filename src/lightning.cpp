@@ -32,7 +32,7 @@ void MainColorLine::draw() {
     
     ofBackground(0);
 
-    mainlines = vector <ofVec2f> MainColorLine();
+    vector <MainColorLine> mainlines; //mainlines = vector <ofVec2f> MainColorLine();
     
     //draw up to 5 lines
     int numBolts = int(ofRandom(0,5));
@@ -51,7 +51,7 @@ void MainColorLine::draw() {
     
     //now draw the main lines
     for (MainColorLine line : mainlines) {
-        line.drawSegment();
+        line.drawSegment(); // this function does not exist
     }
     
 }
@@ -81,9 +81,9 @@ void MainColorLine::recursiveDrawPath(float x1, float y1, float x2,
     float currentDistance = sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
     if (currentDistance < distance/10) {
         ofDrawLine(x1+offset, y1+offset, x2, y2);
-        mainLines.add(new MainColorLine(x1,y1,x2,y2,counter));
+        mainlines.push_back(new MainColorLine(x1,y1,x2,y2,counter));
         return;
-    }
+    }	// .push_back istead of .add
     
     double theta = atan(((y2-y1)/(x2-x1)));
     
@@ -106,7 +106,7 @@ void MainColorLine::recursiveDrawPath(float x1, float y1, float x2,
     ofDrawLine(x1+offset, y1+offset, sx2+offset, sy2+offset);
     
     //add line segment to list of main lines to draw after all accent lines are drawn
-    mainLines.add(new MainColorLine(x1,y1,sx2,sy2,counter));
+    mainlines.push_back(new MainColorLine(x1,y1,sx2,sy2,counter));
     
     counter--;
     

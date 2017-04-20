@@ -28,16 +28,16 @@ public:
     float offset = 4;
     float PX = ofGetMouseX();
     float PY = ofGetMouseY();
-    
+
     // constructor
     MainColorLine(float x1,float y1,float x2,float y2,int strokeWeight);
     
     // other functions
-    void mainColor();
+    //void mainColor();
     void accentColor();
     void draw();
-    void drawPath();
-    void recursiveDrawPath();
+    void drawPath(float x1, float y1, float x2, float y2);
+    void recursiveDrawPath(float x1, float y1, float x2, float y2, float distance, int counter);
 
 
     //long story short, this came about so that the accent colors would
