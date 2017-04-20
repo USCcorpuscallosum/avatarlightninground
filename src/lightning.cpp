@@ -32,7 +32,7 @@ void MainColorLine::draw() {
     
     ofBackground(0);
 
-    mainlines = vector <MainColorLine> ();
+    mainlines = vector <ofVec2f> MainColorLine();
     
     //draw up to 5 lines
     int numBolts = int(ofRandom(0,5));
@@ -64,7 +64,7 @@ void MainColorLine::drawPath(float x1, float y1, float x2, float y2) {
 }
 
 // determine start/end points of lightning segment
-void recursiveDrawPath(float x1, float y1, float x2,
+void MainColorLine::recursiveDrawPath(float x1, float y1, float x2,
                        float y2, float distance, int counter) {
     
     float offset = round(counter/4);

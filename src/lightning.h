@@ -37,7 +37,7 @@ public:
     void accentColor();
     void draw();
     void drawPath();
-    
+    void recursiveDrawPath();
 
 
     //long story short, this came about so that the accent colors would
